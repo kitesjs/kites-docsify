@@ -1,0 +1,33 @@
+{
+  "name": "@kites/docsify",
+  "version": "1.0.0",
+  "description": "Webserver for documentation site generator",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kitesjs/kites-docsify.git"
+  },
+  "keywords": [
+    "kitesjs",
+    "docsify",
+    "documentation"
+  ],
+  "author": "vunb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kitesjs/kites-docsify/issues"
+  },
+  "homepage": "https://github.com/kitesjs/kites-docsify#readme",
+  "dependencies": {
+    "@kites/common": "^1.2.1",
+    "@kites/core": "^1.2.1",
+    "@kites/express": "^1.2.1",
+    "docsify-server-renderer": "^4.11.2"
+  }
+}
