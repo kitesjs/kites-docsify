@@ -1,3 +1,13 @@
 {
-  "discover": true
+  "discover": [
+    true,
+    2,
+    "node_modules",
+    "extensions"
+  ],
+  "express": {
+    "static": "./docs",
+    "httpPort": 3000,
+    "poweredBy": "HSDT"
+  }
 }

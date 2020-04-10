@@ -25,9 +25,10 @@
   },
   "homepage": "https://github.com/kitesjs/kites-docsify#readme",
   "dependencies": {
-    "@kites/common": "^1.2.1",
-    "@kites/core": "^1.2.1",
-    "@kites/express": "^1.2.1",
-    "docsify-server-renderer": "^4.11.2"
+    "@kites/common": "^1.2.2",
+    "@kites/core": "^1.2.2",
+    "@kites/express": "^1.2.2",
+    "docsify-server-renderer": "^4.11.2",
+    "serve-static": "^1.14.1"
   }
 }
