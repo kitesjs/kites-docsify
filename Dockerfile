@@ -1,7 +1,7 @@
 FROM node:10
 
 # Create app directory to hold the application code inside the image
-WORKDIR /kitesjs/docsify
+WORKDIR /kitesjs/kites-docsify
 
 # Create directory to hold the site documents
 RUN mkdir -p docs

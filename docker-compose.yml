@@ -1,0 +1,13 @@
+version: "2"
+services:
+  app:
+    container_name: kites-docsify
+    restart: always
+    image: kitesjs/docsify
+    ports:
+      - 3002:3000
+    volumes:
+      # home directory
+      - /home/kites/docsify:/kites/kites-docsify
+    environment:
+      - NODE_ENV=production
