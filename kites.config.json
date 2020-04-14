@@ -8,6 +8,6 @@
   "express": {
     "static": "./docs",
     "httpPort": 3000,
-    "poweredBy": "HSDT"
+    "poweredBy": "Kites.js"
   }
 }
