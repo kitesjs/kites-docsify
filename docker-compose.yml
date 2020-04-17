@@ -10,4 +10,6 @@ services:
       # home directory
       - /home/kites/docsify:/kites/kites-docsify
     environment:
+      # - GITWORKDIR=/path/to/git/workdir
+      - GITWORKDIR=/kites/kites-docsify
       - NODE_ENV=production
