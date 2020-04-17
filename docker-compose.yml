@@ -8,8 +8,8 @@ services:
       - 3002:3000
     volumes:
       # home directory
-      - /home/kites/docsify:/kites/kites-docsify
+      - /home/kites/docsify:/opt/kites-docsify
     environment:
-      # - GITWORKDIR=/path/to/git/workdir
-      - GITWORKDIR=/kites/kites-docsify
       - NODE_ENV=production
+      - GITWORKDIR=/opt/kites-docsify
+      - express_static=/opt/kites-docsify/docs
