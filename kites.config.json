@@ -9,5 +9,10 @@
     "static": "./docs",
     "httpPort": 3000,
     "poweredBy": "Kites.js"
+  },
+  "auth": {
+    "users": {
+      "admin": "123456"
+    }
   }
 }
