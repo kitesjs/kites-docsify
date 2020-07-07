@@ -14,5 +14,11 @@
     "users": {
       "admin": "123456"
     }
+  },
+  "spa": {
+    "pages": {
+      "/about": "docs/about.html",
+      "/*": "docs/index.html"
+    }
   }
 }
