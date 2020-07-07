@@ -17,8 +17,8 @@
   },
   "spa": {
     "pages": {
-      "/about": "docs/about.html",
-      "/*": "docs/index.html"
+      "/about": "docs/about/index.html",
+      "/home": "docs/index.html"
     }
   }
 }
