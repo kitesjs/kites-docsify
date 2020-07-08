@@ -3,7 +3,8 @@
  */
 require('@kites/core')
   .engine({
-    loadConfig: true
+    loadConfig: true,
+    configFile: process.env.APP_CONFIG_FILE,
   })
   .init()
   .then(app => {
