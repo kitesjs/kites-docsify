@@ -6,7 +6,7 @@ A Webserver for documentation site generator!
 ## Extension Features
 
 * [x] Webserver for docsify site generator
-* [ ] Enable authentication with user login.
+* [x] Enable authentication with user login.
 
 ## Installation
 
